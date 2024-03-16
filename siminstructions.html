@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en" data-framework="typescript">
+
+<head>
+    <meta charset="utf-8">
+    <title>Make Instructions</title>
+    <style type="text/css">
+        @import "/pxt-arcade-gh-pages/semantic.css";
+    </style>
+    <style>
+        html {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            position: relative;
+            width: 100%;
+            height: 100%;            
+            padding: 0;
+            margin: 0;
+            font-family: "Lucida Console", Monaco, monospace;
+        }
+
+        div {
+            /*undo semantic UI*/
+            box-sizing: content-box;
+            line-height: normal;
+        }
+
+        img {
+            border: 0;
+        }
+
+        .organization {
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+            height: 4rem;
+        }
+
+        h1 {
+            font-size: 2em;
+            font-weight: normal;
+            color: rgba(0, 0, 0, 0.87);
+            font-family: 'Segoe UI', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+            display: block;
+            text-align: center;
+        }
+
+        #front-panel .board-svg {
+            position: absolute;
+            left: 2rem;
+            width: 300px;
+            top: 16rem;
+        }
+
+        #proj-title {
+            width: 100%;
+            font-size: 55px;
+            margin-top: 20px;
+        }
+
+        #proj-code {
+            width: 300px;
+            height: 400px;
+            position: absolute;
+            right: 2rem;
+            top: 16rem;
+        }
+
+        #proj-code-container {
+            width: 100%;
+            height: 100%;
+            font-size: 4px;
+            overflow: hidden;
+            display: none;
+        }
+
+        #proj-code-spinner {
+            width: 100%;
+        }
+
+        .back-panel svg {
+            position: relative;
+            margin: 0 auto;
+            left: inherit;
+            bottom: -7px;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        // This line gets patched up by the cloud
+        var pxtConfig = {
+    "relprefix": "/pxt-arcade-gh-pages/",
+    "verprefix": "",
+    "workerjs": "/pxt-arcade-gh-pages/worker.js",
+    "monacoworkerjs": "/pxt-arcade-gh-pages/monacoworker.js",
+    "gifworkerjs": "/pxt-arcade-gh-pages/gifjs/gif.worker.js",
+    "serviceworkerjs": "/pxt-arcade-gh-pages/serviceworker.js",
+    "typeScriptWorkerJs": "/pxt-arcade-gh-pages/tsworker.js",
+    "pxtVersion": "10.0.12",
+    "pxtRelId": "localDirRelId",
+    "pxtCdnUrl": "/pxt-arcade-gh-pages/",
+    "commitCdnUrl": "/pxt-arcade-gh-pages/",
+    "blobCdnUrl": "/pxt-arcade-gh-pages/",
+    "cdnUrl": "/pxt-arcade-gh-pages/",
+    "targetVersion": "0.0.0",
+    "targetRelId": "",
+    "targetUrl": "",
+    "targetId": "arcade",
+    "simUrl": "/pxt-arcade-gh-pages/simulator.html",
+    "simserviceworkerUrl": "/pxt-arcade-gh-pages/simulatorserviceworker.js",
+    "simworkerconfigUrl": "/pxt-arcade-gh-pages/workerConfig.js",
+    "partsUrl": "/pxt-arcade-gh-pages/siminstructions.html",
+    "runUrl": "/pxt-arcade-gh-pages/run.html",
+    "docsUrl": "/pxt-arcade-gh-pages/docs.html",
+    "multiUrl": "/pxt-arcade-gh-pages/multi.html",
+    "asseteditorUrl": "/pxt-arcade-gh-pages/asseteditor.html",
+    "isStatic": true,
+    "kioskUrl": "/pxt-arcade-gh-pages/kiosk.html",
+    "teachertoolUrl": "/pxt-arcade-gh-pages/teachertool.html",
+    "skillmapUrl": "/pxt-arcade-gh-pages/skillmap.html",
+    "multiplayerUrl": "/pxt-arcade-gh-pages/multiplayer.html",
+    "authcodeUrl": "/pxt-arcade-gh-pages/authcode.html"
+};
+    </script>
+    <script src="/pxt-arcade-gh-pages/pxtsim.js"></script>
+    <script src="/pxt-arcade-gh-pages/common-sim.js"></script>
+    <script src="/pxt-arcade-gh-pages/sim.js"></script>
+
+    <div id="front-panel" class="instr-panel">
+        <h1 id="proj-title"></h1>
+    </div>
+</body>
+
+</html>

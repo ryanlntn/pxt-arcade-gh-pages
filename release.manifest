@@ -1,0 +1,91 @@
+CACHE MANIFEST
+
+CACHE:
+/pxt-arcade-gh-pages/semantic.js
+/pxt-arcade-gh-pages/main.js
+/pxt-arcade-gh-pages/pxtapp.js
+/pxt-arcade-gh-pages/typescript.js
+/pxt-arcade-gh-pages/marked/marked.min.js
+/pxt-arcade-gh-pages/highlight.js/highlight.pack.js
+/pxt-arcade-gh-pages/jquery.js
+/pxt-arcade-gh-pages/pxtlib.js
+/pxt-arcade-gh-pages/pxtcompiler.js
+/pxt-arcade-gh-pages/pxtpy.js
+/pxt-arcade-gh-pages/pxteditor.js
+/pxt-arcade-gh-pages/pxtsim.js
+/pxt-arcade-gh-pages/pxtembed.js
+/pxt-arcade-gh-pages/pxtworker.js
+/pxt-arcade-gh-pages/pxtweb.js
+/pxt-arcade-gh-pages/blockly.css
+/pxt-arcade-gh-pages/semantic.css
+/pxt-arcade-gh-pages/rtlsemantic.css
+
+
+/pxt-arcade-gh-pages/editor.js
+
+
+# blockly
+/pxt-arcade-gh-pages/blockly/media/sprites.png
+/pxt-arcade-gh-pages/blockly/media/click.mp3
+/pxt-arcade-gh-pages/blockly/media/disconnect.wav
+/pxt-arcade-gh-pages/blockly/media/delete.mp3
+
+# monaco; keep in sync with webapp/public/index.html
+/pxt-arcade-gh-pages/vs/loader.js
+/pxt-arcade-gh-pages/vs/base/worker/workerMain.js
+/pxt-arcade-gh-pages/vs/basic-languages/bat/bat.js
+/pxt-arcade-gh-pages/vs/basic-languages/cpp/cpp.js
+/pxt-arcade-gh-pages/vs/basic-languages/python/python.js
+/pxt-arcade-gh-pages/vs/basic-languages/typescript/typescript.js
+/pxt-arcade-gh-pages/vs/basic-languages/markdown/markdown.js
+/pxt-arcade-gh-pages/vs/editor/editor.main.css
+/pxt-arcade-gh-pages/vs/editor/editor.main.js
+/pxt-arcade-gh-pages/vs/editor/editor.main.nls.js
+/pxt-arcade-gh-pages/vs/language/json/jsonMode.js
+/pxt-arcade-gh-pages/vs/language/json/jsonWorker.js
+/pxt-arcade-gh-pages/vs/language/typescript/tsMode.js
+/pxt-arcade-gh-pages/vs/language/typescript/tsWorker.js
+
+# charts
+/pxt-arcade-gh-pages/smoothie/smoothie_compressed.js
+/pxt-arcade-gh-pages/images/Bars_black.gif
+
+# gifjs
+/pxt-arcade-gh-pages/gifjs/gif.js
+
+# ai
+/pxt-arcade-gh-pages/ai.0.js
+
+/pxt-arcade-gh-pages/worker.js
+/pxt-arcade-gh-pages/monacoworker.js
+
+# ver Sat Mar 16 2024 16:56:01 GMT+0900 (Korean Standard Time)
+
+# target
+/pxt-arcade-gh-pages/docs/static/providers/github-mark.png
+/pxt-arcade-gh-pages/docs/static/providers/microsoft-logo.svg
+/pxt-arcade-gh-pages/docs/static/providers/google-logo.svg
+/pxt-arcade-gh-pages/docs/static/providers/clever-logo.png
+/pxt-arcade-gh-pages/docs/static/logo.svg
+/pxt-arcade-gh-pages/docs/static/logo.png
+/pxt-arcade-gh-pages/docs/static/icons/favicon.ico
+/pxt-arcade-gh-pages/docs/static/Micorsoft_logo_rgb_W-white_D-square.png
+/pxt-arcade-gh-pages/docs/static/Micorsoft_logo_rgb_W-white_D.png
+/pxt-arcade-gh-pages/docs/static/hero-gallery/multiplayer-banner.png
+/pxt-arcade-gh-pages/docs/static/badges/badge-forest.png
+/pxt-arcade-gh-pages/docs/static/badges/badge-forest-locked.png
+/pxt-arcade-gh-pages/docs/static/badges/badge-zoo.png
+/pxt-arcade-gh-pages/docs/static/badges/badge-zoo-locked.png
+/pxt-arcade-gh-pages/docs/static/badges/badge-rockstar.png
+/pxt-arcade-gh-pages/docs/static/badges/badge-rockstar-locked.png
+/pxt-arcade-gh-pages/docs/static/badges/badge-jungle.png
+/pxt-arcade-gh-pages/docs/static/badges/badge-jungle-locked.png
+/pxt-arcade-gh-pages/docs/static/badges/badge-space.png
+/pxt-arcade-gh-pages/docs/static/badges/badge-space-locked.png
+/pxt-arcade-gh-pages/docs/static/badges/badge-shark.png
+/pxt-arcade-gh-pages/docs/static/badges/badge-shark-locked.png
+
+/pxt-arcade-gh-pages/target.js
+
+NETWORK:
+*
