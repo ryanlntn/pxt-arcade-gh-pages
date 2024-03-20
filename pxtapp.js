@@ -31771,12 +31771,12 @@ var pxsim;
             return frames;
         }
         getSimUrl() {
-            var _a, _b;
-            const simUrl = this.options.simUrl || ((_a = window.pxtConfig) === null || _a === void 0 ? void 0 : _a.simUrl) || ((_b = pxt.webConfig) === null || _b === void 0 ? void 0 : _b.simUrl) || `${location.origin}/sim/simulator.html`;
+            // const simUrl = this.options.simUrl || (window as any).pxtConfig?.simUrl || (pxt as any).webConfig?.simUrl || `${location.origin}/sim/simulator.html`;
+            const simUrl = "https://trg-arcade.userpxt.io/---simulator";
             try {
                 return new URL(simUrl);
             }
-            catch (_c) {
+            catch (_a) {
                 // Failed to parse set url; try based off origin in case path defined as relative (e.g. /simulator.html)
                 return new URL(simUrl, location.origin);
             }
