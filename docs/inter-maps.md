@@ -12,7 +12,7 @@
   "cardType": "link",
   "description": "Make a Galaga-style game by following this short series of tutorials. You will create a rocket that transmits information to satellites, dodge asteroids, create amazing animations, and MORE!",
   "imageUrl":  "/docs/static/skillmap/backgrounds/galaxy-map.png",
-  "url": "/--skillmap#galaxy",
+  "url": "/skillmap#galaxy",
   "directOpen": true
 },
 {
@@ -20,7 +20,7 @@
   "cardType": "link",
   "description": "Create a side-scrolling monster truck racing game then jump obstacles to get your rig to the finish line.",
   "imageUrl": "/docs/static/skillmap/backgrounds/racer.png",
-  "url": "/--skillmap#racer",
+  "url": "/skillmap#racer",
   "directOpen": true
 },
 {
@@ -28,7 +28,7 @@
   "cardType": "link",
   "description": "Code a text-based adventure game using your own images, storyline, and music score!",
   "imageUrl": "/docs/static/skillmap/backgrounds/adventure-map.png",
-  "url": "/--skillmap#adventure",
+  "url": "/skillmap#adventure",
   "directOpen": true
 },
 {
@@ -36,7 +36,7 @@
   "cardType": "link",
   "description": "Transport yourself back to prehistoric Israel at the turn of winter.  Follow these simple instructions to create a clicker game that sparks a fire for the win!",
   "imageUrl":  "/docs/static/skillmap/backgrounds/sparks-map.png",
-  "url": "/--skillmap#sparks",
+  "url": "/skillmap#sparks",
   "directOpen": true
 },
 {
@@ -44,7 +44,7 @@
   "cardType": "link",
   "description": "The deep sea is a fascinating place! This skillmap will guide you through the ocean as a shark on a journey to find food!",
   "imageUrl": "/docs/static/skillmap/backgrounds/shark-map.png",
-  "url": "/--skillmap#shark",
+  "url": "/skillmap#shark",
   "directOpen": true
 },
 {
@@ -52,7 +52,7 @@
   "cardType": "link",
   "description": "Use blocks to code your airtanker and set up tech so your ground team can help you save the forest!",
   "imageUrl": "/docs/static/skillmap/backgrounds/forest.png",
-  "url": "/--skillmap#forest",
+  "url": "/skillmap#forest",
   "directOpen": true
 },
 {
@@ -60,7 +60,7 @@
   "cardType": "link",
   "description": "Code your rockstar to move through the crowded backstage area to collect all the gear before they're mobbed by fans!",
   "imageUrl":  "/docs/static/skillmap/backgrounds/rockstar-card.gif",
-  "url": "/--skillmap#rockstar",
+  "url": "/skillmap#rockstar",
   "directOpen": true
 },
 {
@@ -68,7 +68,7 @@
   "cardType": "link",
   "description": "Code your player, add magic platforms, toss explosives, and collect valuables through customizable level maps.",
   "imageUrl":  "/docs/static/skillmap/backgrounds/jungle-map.png",
-  "url": "/--skillmap#jungle",
+  "url": "/skillmap#jungle",
   "directOpen": true
 },
 {
