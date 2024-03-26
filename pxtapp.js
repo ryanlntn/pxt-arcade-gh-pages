@@ -18575,10 +18575,12 @@ var pxt;
                 return this.db.openAsync();
             }
             getAllProjectsAsync() {
+                console.log('getAllProjectsAsync');
                 return this.db.getAllAsync(IndexedDBWorkspace.projectTable)
                     .then(entries => entries.map(e => e.project).filter(e => !e.deleted));
             }
             deleteProjectAsync(headerId) {
+                console.log('deleteProjectAsync', { headerId });
                 return this.getProjectAsync(headerId)
                     .then(project => {
                     project.deleted = true;
@@ -18586,10 +18588,12 @@ var pxt;
                 });
             }
             getProjectAsync(headerId) {
+                console.log('getProjectAsync', { headerId });
                 return this.db.getAsync(IndexedDBWorkspace.projectTable, headerId)
                     .then(entry => entry === null || entry === void 0 ? void 0 : entry.project);
             }
             saveProjectAsync(project) {
+                console.log('saveProjectAsync', { project });
                 return this.db.setAsync(IndexedDBWorkspace.projectTable, {
                     id: project.header.id,
                     project
@@ -24811,12 +24815,11 @@ var pxt;
             if (!Cloud.isOnline()) // offline
                 return Promise.resolve(undefined);
             const targetVersion = pxt.appTarget.versions && pxt.appTarget.versions.target;
-            // const url = pxt.webConfig && pxt.webConfig.isStatic ? `targetconfig.json` : `config/${pxt.appTarget.id}/targetconfig${targetVersion ? `/v${targetVersion}` : ''}`;
-            const url = `targetconfig.json`;
+            const url = pxt.webConfig && pxt.webConfig.isStatic ? `targetconfig.json` : `config/${pxt.appTarget.id}/targetconfig${targetVersion ? `/v${targetVersion}` : ''}`;
             if (pxt.BrowserUtils.isLocalHost())
                 return localRequestAsync(url).then(r => r ? r.json : undefined);
             else
-                return apiRequestWithCdnAsync({ url }).then(r => r.json);
+                return apiRequestWithCdnAsync({ url: `targetconfig.json` }).then(r => r.json);
         }
         Cloud.downloadTargetConfigAsync = downloadTargetConfigAsync;
         function downloadScriptFilesAsync(id) {
