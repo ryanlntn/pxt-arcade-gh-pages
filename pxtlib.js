@@ -18569,12 +18569,10 @@ var pxt;
                 return this.db.openAsync();
             }
             getAllProjectsAsync() {
-                console.log('getAllProjectsAsync');
                 return this.db.getAllAsync(IndexedDBWorkspace.projectTable)
                     .then(entries => entries.map(e => e.project).filter(e => !e.deleted));
             }
             deleteProjectAsync(headerId) {
-                console.log('deleteProjectAsync', { headerId });
                 return this.getProjectAsync(headerId)
                     .then(project => {
                     project.deleted = true;
@@ -18582,12 +18580,10 @@ var pxt;
                 });
             }
             getProjectAsync(headerId) {
-                console.log('getProjectAsync', { headerId });
                 return this.db.getAsync(IndexedDBWorkspace.projectTable, headerId)
                     .then(entry => entry === null || entry === void 0 ? void 0 : entry.project);
             }
             saveProjectAsync(project) {
-                console.log('saveProjectAsync', { project });
                 return this.db.setAsync(IndexedDBWorkspace.projectTable, {
                     id: project.header.id,
                     project
